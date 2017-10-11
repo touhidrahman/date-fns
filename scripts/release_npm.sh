@@ -7,7 +7,6 @@ mkdir $dir
 
 for pattern in CHANGELOG.md \
   LICENSE.md \
-  README.md \
   index.js \
   package.json \
   typings.d.ts \
@@ -15,6 +14,8 @@ for pattern in CHANGELOG.md \
 do
   cp -r "$pattern" "$dir"
 done
+
+curl "https://raw.githubusercontent.com/date-fns/date-fns/v1/README.md" > "$dir/README.md"
 
 rm -rf "$dir/is_so_last_week"
 
