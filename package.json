@@ -21,7 +21,10 @@
     "benchmark": "env TEST_BENCHMARK=true yarn test -- --single-run",
     "stats": "cloc . --exclude-dir=node_modules,tmp,.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest": "^21.2.1",
+    "jest-context": "^2.1.0"
+  },
   "standard": {
     "parser": "babel-eslint",
     "ignore": []
