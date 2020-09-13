@@ -89,7 +89,7 @@
     "mocha": "^3.5.3",
     "moment": "^2.24.0",
     "mz": "^2.7.0",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.1",
     "power-assert": "^1.6.1",
     "prettier": "^1.18.2",
     "rimraf": "^2.7.1",
