@@ -70,7 +70,7 @@
     "jest-plugin-context": "^2.9.0",
     "js-beautify": "^1.5.10",
     "jsdoc-to-markdown": "^5.0.0",
-    "karma": "^3.1.4",
+    "karma": "^6.3.14",
     "karma-benchmark": "^1.0.4",
     "karma-benchmark-reporter": "^0.1.1",
     "karma-chrome-launcher": "2.2",
